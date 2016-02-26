@@ -648,6 +648,12 @@ input[type="number"]::-webkit-inner-spin-button {
   line-height: 1.33;
   border-radius: 6px;
 }
+.btn-med {
+  padding: 5px 5px;
+  font-size: 15px;
+  line-height: 1;
+  border-radius: 3px;
+}
 .btn-xs {
   padding: 5px 10px;
   font-size: 12px;

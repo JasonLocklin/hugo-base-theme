@@ -3,13 +3,26 @@
     <div id="top" class="header">
       <div class="vert-text">
         <a href="#intro"><img src="{{ .Site.BaseURL }}{{ .Site.Params.mainIcon }}" class="logo"></a>
-        <div class="siteTitle">{{ .Site.Title }}</div>
-        <div class="description">{{ .Site.Params.description }}</div>
-        <div class="buttonbox">
-       {{ range .Site.Params.social }}
+	<div class="headInfo">
+		<div class="siteTitle">{{ .Site.Title }}</div>
+		<div class="description">{{ .Site.Params.description }}</div>
+		<div class="description">{{ .Site.Params.location }}</div>
+		<div class="buttonbox">
+       <!-- {{ range .Site.Params.social }}
             <a href="{{ .url }}" class="btn btn-default btn-lg"><i class="icon-{{ lower .title }}"></i> <span class="network-name">{{ .title }}</span></a>
-        {{ end }}
+	    {{ end }} -->
+	     <a href="#about" class="btn btn-default btn-med">
+		     <i class="icon-idea"></i> 
+		     <span class="network-name">About</span></a>
+	
+	     <a href="#social" class="btn btn-default btn-med">
+		     <i class="icon-pen"></i> 
+		     <span class="network-name">Social</span></a>
+	     <a href="#contact" class="btn btn-default btn-med">
+		     <i class="icon-talking"></i> 
+		     <span class="network-name">Contact</span></a>
         </div>
+	</div>
       </div>
     </div>
     <!-- /Full Page Image Header Area -->
